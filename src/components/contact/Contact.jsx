@@ -9,7 +9,7 @@ const contacts = [
   {title: 'Facebook', imgUrl: facebook, link: "https://www.facebook.com/profile.php?id=61550796238511"},
   {title: 'abditefera11@gmail.com', imgUrl: gmail, link: "mailto:abditefera11@gmail.com"},
   {title: 'Twitter', imgUrl: twitter, link: "https://twitter.com/abditefera1"},
-  {title: '+251967118825', imgUrl: phone, link: "#"},
+  {title: '+251967118825', imgUrl: phone, link: "tel:+251967118825"},
 ]
 const Contact = () => {
 	return (

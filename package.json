@@ -1,5 +1,6 @@
 {
-	"name": "reactfolio",
+	"homepage": "https://abditefera1.github.io/",
+	"name": "portfolio",
 	"version": "1.1.0",
 	"description": "Personal portfolio template built using Reactjs",
 	"author": {
@@ -29,6 +30,8 @@
 	},
 	"scripts": {
 		"start": "react-scripts start",
+		"predeploy":"npm run build",
+		"deploy": "gh-pages -d build",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject"
@@ -54,5 +57,8 @@
 	"prettier": {
 		"useTabs": true,
 		"tabWidth": 4
+	},
+	"devDependencies": {
+		"gh-pages": "^6.0.0"
 	}
 }

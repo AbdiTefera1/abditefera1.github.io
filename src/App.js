@@ -16,7 +16,6 @@ const App = () => {
     <div>
         <Home/>
         <Line/>
-        {/* <Card/> */}
         <Project/>
         <Line/>
         <About/>

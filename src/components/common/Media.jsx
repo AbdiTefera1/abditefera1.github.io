@@ -10,7 +10,7 @@ const Media = ({title, imgUrl, link}) => {
 				</span>
 			</div>
 			<div className="media__body">
-				<a href={link} className="media__title">
+				<a href={link} target="_blank" className="media__title">
 					{title}
 				</a>
 			</div>
