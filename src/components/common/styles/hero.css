@@ -1,0 +1,24 @@
+@import "../../../data/styles.css";
+
+.hero__tagline {
+    font-size: 4rem;
+    color: #b9c3cf;
+    letter-spacing: 1px;
+    margin: 2rem 0 5rem;
+}
+
+.hero__heading{
+    font-family: 'Metal Mania';
+}
+
+.hero__image {
+    width: 70%;
+    border-radius: 50px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero__content {
+        margin-top: 0;
+        align-self: center;
+    }
+}

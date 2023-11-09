@@ -1,0 +1,81 @@
+@import "../../../data/styles.css";
+.nav {
+    /* background: #040720;  */
+    background:  #17594A; 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2rem 1rem;
+    align-items: center;
+}
+
+.nav__list {
+    width: 100%;
+    margin: 0;
+}
+
+.nav__item {
+    padding: 0.5rem 2rem;
+    border-bottom: 1px solid #222;
+}
+
+.nav__item > a {
+    color: #040720;
+    transition: color 0.3s;
+}
+
+.nav__item > a:hover {
+    color: #0b1465;
+}
+
+.nav__toggler {
+    opacity: 0.5;
+    transition: box-shadow 0.15s;
+    cursor: pointer;
+}
+
+.nav.collapsible--expanded .nav__toggler {
+    opacity: 1;
+    box-shadow: 0 0 0 3px #667;
+    border-radius: 5px;
+}
+
+.nav__brand {
+    transform: translateY(5px);
+}
+
+.nav__brand img {
+    width: 45px;
+    height: 45px;
+}
+
+.list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.menu_icon path{
+    background-color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+    .nav {
+        padding: 2rem 15rem;
+    }
+    .nav__toggler {
+        display: none;
+    }
+
+    .nav__list {
+        width: auto;
+        display: flex;
+        font-size: 1.6rem;
+        max-height: 100%;
+        opacity: 1;
+    }
+
+    .nav__item {
+        border: 0;
+    }
+}
+

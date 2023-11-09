@@ -1,0 +1,36 @@
+.card {
+    border-radius: 7px;
+    box-shadow: 0 0 20px 10px #f3f3f3;
+    overflow: hidden;
+}
+
+.card:hover {
+    /* transform: none; */
+}
+
+.about {
+    padding: 3rem;
+}
+
+.about__image {
+    position: relative;
+}
+
+.about__image > img{
+    width: 100%;
+}
+
+.about__info{
+    font-size: 3rem;
+    font-style: italic;
+    color: var(--color-body-darker);
+    line-height: 1.8;
+}
+
+.about__text::before {
+    content: open-quote;
+}
+
+.about__text::after {
+    content: close-quote;
+}
