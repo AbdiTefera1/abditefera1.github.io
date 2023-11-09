@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.eaf78b5d.css",
+    "main.js": "/static/js/main.7d2361ef.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/focuswku.png": "/static/media/focuswku.e4c510b914d239cdd21a.png",
+    "static/media/smartLibrary-home.png": "/static/media/smartLibrary-home.a27f68cee3287c7f0f09.png",
+    "static/media/Portfolio.png": "/static/media/Portfolio.0ee41378efc721510597.png",
+    "static/media/banner.jpg": "/static/media/banner.5531f60c96189eb6bba4.jpg",
+    "static/media/a4.png": "/static/media/a4.535a900587a3bc9f055d.png",
+    "static/media/js.png": "/static/media/js.78206ba65e01c7d57080.png",
+    "static/media/gmail.png": "/static/media/gmail.a2f2146f929409405da0.png",
+    "static/media/menu.svg": "/static/media/menu.5d0a10714a773802be20eea0ae3ecb44.svg",
+    "index.html": "/index.html",
+    "main.eaf78b5d.css.map": "/static/css/main.eaf78b5d.css.map",
+    "main.7d2361ef.js.map": "/static/js/main.7d2361ef.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eaf78b5d.css",
+    "static/js/main.7d2361ef.js"
+  ]
+}
