@@ -18,11 +18,11 @@ function Navigation() {
           <img className='menu_icon' onClick={handleOnClick} src={icon} alt='' style={{width:'40px', height: '40px', color: '#fff'}}/>
         </span>
         <ul className="list nav__list collapsible__content" style={{backgroundColor: '#fff', borderRadius: 20, padding: '1rem 1rem'}}>
-          <li className="nav__item"><a href="/">Home</a></li>
-          <li className="nav__item"><a href="/">Project</a></li>
-          <li className="nav__item"><a href="/">About</a></li>
-          <li className="nav__item"><a href="/">Contact</a></li>
-          <li className="nav__item"><a href="/">Articles</a></li>
+          <li className="nav__item"><a href="#home">Home</a></li>
+          <li className="nav__item"><a href="#projects">Project</a></li>
+          <li className="nav__item"><a href="#about">About</a></li>
+          <li className="nav__item"><a href="#contact">Contact</a></li>
+          {/* <li className="nav__item"><a href="/">Articles</a></li> */}
         </ul>
       </nav>
      </header>

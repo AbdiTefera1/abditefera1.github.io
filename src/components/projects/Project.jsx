@@ -10,7 +10,7 @@ const Project = () => {
         {title: 'FocusWKU', picture: focuswku, discription: 'This is the project developed by MERN stack', link:'https://focus-wku-frontend-56hvv9dib-abdis-projects-7f21096c.vercel.app/'},
     ]
   return (
-    <section className='block'>
+    <section id='projects' className='block'>
         <header className='block__header'>
         <h2>Projects</h2>
         </header>

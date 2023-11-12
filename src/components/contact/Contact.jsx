@@ -13,7 +13,7 @@ const contacts = [
 ]
 const Contact = () => {
 	return (
-		<section className="block">
+		<section id="contact" className="block">
 			<header className="block__header">
 				<h2>Contact</h2>
 			</header>

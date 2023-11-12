@@ -3,7 +3,7 @@ import "./about.css";
 import imgUrl from "../../images/banner.jpg";
 const About = () => {
 	return (
-		<section className="block">
+		<section id="about" className="block">
 			<header className="block__header">
 				<h2>About</h2>
 			</header>

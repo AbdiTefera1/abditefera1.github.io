@@ -24,7 +24,7 @@ const Card = ({title, picture, discription, link}) => {
 					{discription}
 				</div>
 				<div style={{alignSelf: 'center', paddingBottom: '1rem'}}>
-					<a href={link} className="link-arrow">
+					<a href={link} target="_blank" className="link-arrow">
 						see more
 					</a>
 				</div>
