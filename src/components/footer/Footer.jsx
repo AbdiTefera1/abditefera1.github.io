@@ -6,7 +6,7 @@ const Footer = () => {
     <section className='block block--dark'>
       <div className="footer__brand">
           <img src={icon} alt="" />
-          <p className="footer__copyright">Copytight 2023 Abdi Tefera</p>
+          <p className="footer__copyright">Copytight©2023 Abdi Tefera</p>
         </div>
     </section>
   )
